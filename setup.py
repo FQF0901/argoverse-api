@@ -58,7 +58,7 @@ setup(
         "matplotlib",
         "motmetrics==1.1.3",
         "numba",
-        "numpy==1.19",
+        "numpy>=1.20",  #【原==1.19，改>=1.20好使，但不确定==1.19是否正的不ok】
         "omegaconf==2.1.0",
         "opencv-python>=4.1.0.25",
         "pandas>=0.23.1",
@@ -67,7 +67,7 @@ setup(
         "pyntcloud>=0.1.0",
         "scipy>=1.4.0",
         "shapely",
-        "sklearn",
+        "scikit-learn",
         "tqdm",
         "typing_extensions",
     ],
